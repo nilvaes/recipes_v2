@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Slab&display=swap');
+
+/* font-family: 'Quicksand', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/* font-family: 'Roboto Slab', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* font-family: 'Press Start 2P', cursive; */
+
+* {
+  box-sizing: border-box;
+  font-family: Quicksand, sans-serif;
+  color:rgb(15, 15, 15)
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+ul li a {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ul li {
+  margin-top: 5px;
+}
+
+
+.footer ul {
+  list-style-type: none;
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  
+  position: fixed;
+  Width: 100%;
+  bottom: 0
+}
+
+.footer ul li a{
+  font-size: 20px;
+  color: white;
+
+}
+
+.container-übungen {
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+

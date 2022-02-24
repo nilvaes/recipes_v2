@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Slab&display=swap');
+
+/* font-family: 'Quicksand', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/* font-family: 'Roboto Slab', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* font-family: 'Press Start 2P', cursive; */
+
+* {
+  box-sizing: border-box;
+  font-family: Quicksand, sans-serif;
+  color:rgb(15, 15, 15)
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container-navi {
+  background-color: black;
+}
+
+
+.navi ul li a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.navi li {
+  display: inline;
+  font-size: 30px;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.navi {
+  text-align: center;
+}
+
+
+.manti {
+  height:auto;
+  width: 500px;
+  margin-left: 15px;
+  border-radius: 10%;
+
+}
+
+h1 {
+  margin-left: 15px;
+  font-size: 50px;
+}
+
+h2 {
+  margin-left: 15px;
+  font-size: 35px;
+}
+
+.para {
+  margin: 0 15px;
+  font-size: 20px;
+  
+}
+
+h3 {
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+h4 {
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+ul li {
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+ol li {
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+
+.container-instructions {
+  margin-bottom: 100px;
+}
+
+.misoo {
+  height:auto;
+  width: 500px;
+  margin-left: 15px;
+  border-radius: 10%;
+}
+
+.container-miso-para p{
+  display: flexbox;
+  margin: 0;
+
+}
+
+
+.container-miso-para.pepper-para p {
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+li .bottom-spacer {
+  margin-bottom: 100px;
+}
+
+
+.peppero {
+  height:auto;
+  width: 500px;
+  margin-left: 15px;
+  border-radius: 10%;
+}
+
+
+
+.footer ul {
+  list-style-type: none;
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  
+  position: fixed;
+  Width: 100%;
+  bottom: 0;
+}
+
+.footer ul li a{
+  font-size: 20px;
+  color: white;
+
+}
+
+
